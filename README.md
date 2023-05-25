@@ -11,15 +11,6 @@ Each location in the targeted area has its own distinguishing WiFi fingerprint i
 Positioning systems take advantage of this feature of the WiFi fingerprint to accurately perform location estimation of the user.
 Match the real-time WiFi signals received by the user with those in the database, so that positioning estimation of the user’s current location could be generated based on their relevance.
 
-Deep learning in Wifi fingerprinting: Deep learning is utilised in wifi fingerprinting because of the following features it offers over other machine learning approaches:
-It provides valid representations of multimodal WiFi fingerprinting data.
-It can deal with a massive amount of high-dimensional data which is the usual case-scenario of wifi localization.
-It is capable of extracting hierarchical information from discrete input data.
-It provides configurability of modifying as a regressor or classifier to perform distinguishing positioning tasks.
-
-Wi-fi Fingerprinting based localization
-Fingerprinting technique consists of two phases: calibration and positioning. In the calibration phase, an extensive radio map is built consisting of RSSI values from multiple Wi-Fi Access Points (APs) at different known locations. This calibration data is used to train the localization algorithm. In the positioning phase, when a user reports the RSSI measurements for the multiple APs, the fit algorithm predicts the user position.
-
 Dataset Description
 For building prediction algorithms and performing analysis in the initial stages of this project a publicly available dataset UJIIndoorLoc is utilised [24]. UJIIndoorLoc is a multi-building and multi-floor WLAN localization database. The UJIIndoorLoc database covers three buildings of Universitat Jaume I, Madrid Spain with 4 or more floors and almost 110000 m2 (Fig 2a.). The full raw information is collected by more than 20 users and by means of 25 devices. The dataset consists of 19937 calibration/training/reference records and 1111 positioning/validation/test records. 
 The 529 attributes contain the WiFi fingerprint, the coordinates where it was taken, and other useful information. Each Wi-Fi fingerprint record consists of user ID, timestamp, received signal strength intensity (RSSI) of 520 Wireless Access Points (WAPs) and location information including latitude, longitude, floor etc. Each WiFi fingerprint thus can be characterised by the detected WAPs and the corresponding RSSI. The intensity values are represented as negative integer values ranging from -104dBm (extremely poor signal) to 0dbM. The positive value 100 is used to denote when a WAP was not detected. During the database creation 520 different WAPs were detected, thus the WiFi fingerprint is composed of 520 intensity values. 
