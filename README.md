@@ -1,5 +1,5 @@
 # WiFi Fingerprinting Indoor Navigation MultiLabel Classifier System
-**Wifi based Indoor Localization system utilizing Wi-Fi Fingerprinting Technique**
+**Wifi based Indoor Localization system utilizing Wi-Fi Fingerprinting Technique - AI/ML approach**
 
 **Introduction:** Indoor localization refers to determining the location of an individual or an object inside a building or any indoor environment. With the increasing demand for location-based services, indoor localization has gained significant attention in recent years. WiFi fingerprinting is one of the widely used techniques for indoor localization. Generally, It involves measuring the signal strength of Wi-Fi access points (APs) to determine the location of a device.
 
